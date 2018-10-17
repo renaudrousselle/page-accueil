@@ -1,0 +1,1200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: play;
+    font-size: 14px;
+}
+
+/* -------------------------  Header ----------------------- */
+
+header > section:first-child {
+    background: #ff7206;
+}
+
+header > section:first-child section, header > section:last-child a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+}
+
+/* banderole orange */
+header > section:first-child section { 
+    width: 540px;
+    color: #fff;
+    height: 30px;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+header section section a { /* lien contact */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #000;
+    font-size: 1.1rem; 
+}
+
+header section section a:hover { /* lien contact hover */
+    color: #fff;
+}
+
+header i { /* enveloppe contact */
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+/* banderole blanche */
+header > section:last-child a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1024px;
+    height: 150px;
+}
+
+header > section:last-child a img { /* logo */
+    max-width: 400px;
+    height: auto;
+    left: 10px;
+}
+
+header section a section p {
+    font-style: italic;
+    font-weight: 1000;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+header section a section p:first-child {
+    color: #18a000;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+header section a section p:nth-child(2) {
+    color: #ff7206;
+}
+
+header section a section p:last-child {
+    text-transform: uppercase;
+}
+/* fin coordonnées */
+
+/* --------------------------  Nav --------------------------- */
+#navFullScreen {
+        display: none;
+    }
+
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    position: relative;
+}
+
+nav > section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 1200px;
+    margin: auto;    
+}
+
+nav a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 17px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+body nav a:hover {
+    background: #18a000;
+    color: #fff;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+nav section section:first-child a:last-child:hover { /* last link */
+    color: #000;
+}
+
+nav > a:first-child { /* menu hamburger */
+    display: none;
+}
+
+nav > a:nth-child(2) img { /* logo */
+    display: none;
+    width: 110px;
+    position: relative;
+    top: -10px;
+    left: 10%;
+}
+
+nav section section:last-child a i { /* loupe Search */
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+}
+
+nav input {
+    display: none;
+    position: absolute;
+    height: 50px;
+    border: none;
+    top: 50px;
+    left: calc(50% - 600px);
+    z-index: 1;
+    width: 1190px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.source-sous-menu {
+    position: relative;
+}
+
+.source-sous-menu ul {
+    position: absolute;
+    background: red;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+}
+
+nav section a ul { /* listes des liens du nav */
+    width: 100%;
+    display: none;
+}
+
+.source-sous-menu ul li {
+    height: 16px;
+    width: 350px;
+    background: #343539;
+    list-style-type: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 17px;
+}
+
+.source-sous-menu ul li:hover {
+    background: #18a000;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+.source-sous-menu:hover ul {
+    display: block;
+}
+
+/* ---------------------  En-tête photo ----------------------- */
+#conteneur {
+    position: relative;
+    width: 100%;
+}
+
+#conteneur img {
+    width: 100%;
+}
+
+#conteneur > section:nth-child(2) { /* Cartouche noir transparent */
+    background: #000;
+    width: 75%;
+    height: 300px;
+    opacity: 0.7;
+    position: absolute;
+    top: calc(50% - 150px) ;
+    left: calc(0% - 75%);
+    /* texte */
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: oxygen;
+    line-height: 2;
+    font-size: 1.5rem;
+    font-weight: bold;  
+}
+
+/* ------ Formulaire ------ */
+#conteneur > section:last-child { /* conteneur */
+    padding: 20px;
+    border-radius: 5px;
+    width: 68%;
+    position: absolute;
+    top: calc(50%);
+    left: calc(0% - 100%);
+}
+
+#conteneur form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+#conteneur form section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+#conteneur form input, #conteneur form select  {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-family: play;
+    font-style: italic;
+    color: #333;
+    border-radius: 4px;
+    height: 35px;
+    border: 1px #999 solid;
+    padding-left: 5px;
+}
+
+#conteneur form button {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-family: play;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#conteneur form > section:last-child {
+    position: relative;
+}
+
+
+/* ---------------------------- Main --------------------------- */
+h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    font-weight: 100;
+    padding: 15px 0;
+}
+
+main > section {
+    width: 1024px;
+    margin: auto;
+}
+
+/* -- section vente et location -- */
+#BtnsVendEtLoue {
+    margin: 20px;
+}
+
+main > section section:first-child {
+    margin-top: 25px;
+}
+
+main > section section:first-child button {
+    font-size: 1.5rem;
+    padding: 5px 45px;
+    color: #333;
+    border-radius: 5px 5px 0 0;
+    border: 1px #999 solid;
+    border-bottom: 0;
+    background: #fff;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+main > section section:first-child button:hover {
+    background: #343539;
+    color: #fff;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#ligne {
+    border-bottom: 1px #999 solid;
+    margin: 0 0 20px 0;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0 20px;
+}
+
+h3 i {
+    margin-right: 10px;
+}
+
+main section section section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px 0;
+}
+
+/* ----- Ventes et location ----- */
+article.ventelocation {
+    margin-right: 20px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background: #fff;
+    height: 450px;
+    border-radius: 0 0 15px 15px;
+    -webkit-box-shadow: 5px 5px 15px #888;
+            box-shadow: 5px 5px 15px #888;
+    position: relative;
+}
+
+main section section section article:last-child {
+    margin-right: 0;
+}
+
+main section section section article img {
+    width: 100%;
+}
+
+main section section section article h4 {
+    font-size: 1.3rem;
+    padding: 7px;
+    color: #fff;
+    font-weight: 600;
+    margin: 8px 0;   
+}
+
+main section section section article ul {
+    width: 85%;
+    margin: auto;
+    margin-left: 35px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+}
+
+main section section section article ul span {
+    font-size: 0.8rem;
+}
+
+main section section section article button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 22px;
+    border-radius: 5px;
+}
+
+/* ----- Encart gris et icônes verts ----- */
+main > section:nth-child(3) {
+    width: 100%;
+}
+
+section.valeurs {
+    width: 1024px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+section.valeurs section article {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-right: 20px;
+    text-align: justify;
+    color: #333;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    line-height: 1.5;
+    font-size: 0.96rem;
+}
+
+section.valeurs section article i {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #cecece;
+    font-size: 2rem;
+    -ms-flex-item-align: center;
+        align-self: center;
+    border-radius: 30px;
+}
+
+section.valeurs section article h4 {
+    font-size: 1rem;
+    color: #444;
+    padding: 0;
+    margin: 15px 0;
+}
+
+section.valeurs section article p:last-child {
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+section.valeurs > article {
+    margin-top: 80px;
+    text-align: justify;
+    line-height: 1.5;
+    color: #343539;
+}
+
+/* ----- Actualité immobilières ----- */
+section.actualite > section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section.actualite > section article {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: justify;
+    line-height: 1.4;
+    color: #343539;
+    margin: 70px 20px 70px 0;
+    height: 400px;
+    position: relative;
+}
+
+section.actualite > section article:last-child {
+    margin-right: 0;
+}
+
+section.actualite > section article h5 {
+    font-size: 1rem;
+}
+
+section.actualite > section article img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+section.actualite > section article button {
+    width: 100%;
+    height: 50px;
+    color: #777;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #dedede;
+    border: 1px #b7b7b7 solid;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    position: absolute;
+    bottom: 0;
+}
+
+section.actualite > section article button:hover {
+    background: #cecece;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* ----- Petit encart gris avec carte ----- */
+.encartcarte {
+    width: 100%;
+}
+
+.encartcarte > section {
+    width: 1024px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.encartcarte section article {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 20px 20px 30px 0;
+}
+
+.encartcarte section article:last-child {
+    margin-right: 0;
+}
+
+.encartcarte section article ul, .encartcarte section article p { 
+    margin-top: 30px;
+    line-height: 1.4;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.encartcarte section article img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------- footer ------------------------ */
+ 
+footer {
+    text-align: center;
+    margin: auto;
+    padding: 40px 0;
+    color: #fff;
+}
+
+footer img {
+    max-width: 100%;
+}
+
+footer h5 {
+    line-height: 2;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#copyright {
+    margin-top: 20px;
+    padding: 20px;
+    background: #2f3033;
+}
+
+#copyright {
+    color: #777;
+}
+
+#copyright a {
+    color: #247fd0;
+    text-decoration: none; 
+} 
+#copyright a:hover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #777;
+}
+/* -----------------------  Balises isolées ----------------------- */
+a {
+    text-decoration: none;
+    color: #247fd0;
+}
+
+a:hover {
+    color: #213446;
+}
+/* ---------------------  Classes ---------------------- */
+
+.orange {
+    background: #ff7206;
+    color: #fff;
+    border: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.orange:hover {
+    background: #18a000;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.vert {
+    background: #18a000;
+}
+
+.grisfonce {
+    background: #343539;
+}
+
+.grismoyen {
+    background: #cecece;
+}
+
+.grisclair {
+    background: #f5f4ef;
+}
+
+.filettitre:first-child { /* banderole titre */
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.filettitre:first-child div { /* filets titre */
+    background: #343539;
+    height: 1px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.filettitre:first-child h4 {
+    background: #343539;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 100;
+    padding: 8px 9px;
+}
+
+.navBarFixed {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    -webkit-box-shadow: 0 10px 15px rgba(55, 64, 70, 0.25);
+            box-shadow: 0 10px 15px rgba(55, 64, 70, 0.25);
+    width: 100%;
+}
+
+/* ---------------------  ID ---------------------- */
+#bouton-return {
+    display: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0;
+    background: rgba(100, 100, 100, 0.5);
+    font-size: 2rem;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 4;
+    text-align: center;
+}
+
+
+#cookies p {
+    position: fixed;
+    top: calc(100% - 45px);
+    z-index: 2;
+    background: #000;
+    color: #fff;
+    height: 45px;
+    width: 100%;
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#cookies button {
+    border: none;
+    border-radius: 3px;
+    padding: 4px 10px;
+    margin-left: 10px;
+}
+
+/* -------------------- RESPONSIVE ------------------ */
+
+@media screen and (max-width: 1024px) {
+    header > section:last-child a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 280px;
+    margin: 20px 0;
+    }
+    
+    header > section:last-child section {
+        border: 1px green solid;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    nav > section section:first-child {
+    display: none;  
+    }
+    
+    nav input {
+        left: 0;
+        z-index: 1;
+        width: 100%;
+    }
+    
+    #menuBurger {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #menuBurger i {
+        margin-right: 10px;
+    }
+    
+    #loupe {
+        position: absolute;
+        top: 0;
+        left: calc(100% - 10%);
+    }
+    
+    /* ----- Menu Full Screen ----- */
+    #navFullScreen {
+        position: fixed;
+        left: -100%;
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+        background: #2f3033;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        display: block;
+    }
+    
+    #navFullScreen h6 {
+        background: #161617;
+        height: 50px;
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 100;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        width: 1024px;
+    }
+    
+    #navFullScreen h6 a #croixMenu {
+        color: #fff;
+        float: right;
+        padding-right: 20px;
+    }
+    
+    #navFullScreen h6 a #flecheMenu {
+        color: #fff;
+        float: left;
+        padding-left: 20px;
+        display: none;
+    }
+    
+    #navFullScreen input {
+        display: block;
+        margin: auto;
+        height: 30px;
+        padding-left: 10px;
+        margin: 20px 0 20px 20px;
+        width: calc(100% - 50px);
+    }
+    
+    #navFullScreen section {
+        display: block;
+        margin: auto;
+        border: 1px #222 solid;
+        -webkit-box-shadow: 1px 1px 1px rgb(255, 255, 255, 0.2);
+                box-shadow: 1px 1px 1px rgb(255, 255, 255, 0.2);
+        border-radius: 5px;
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+    
+    #navFullScreen p {
+        color: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 20px 20px 20px 20px;
+        font-size: 1.1rem;
+    }
+    
+    #navFullScreen a {
+        color: #fff;
+    }
+    
+    #navFullScreen hr {
+        border: 1px #222 solid;
+        -webkit-box-shadow: 1px 1px 1px rgb(255, 255, 255, 0.2);
+                box-shadow: 1px 1px 1px rgb(255, 255, 255, 0.2);
+    }
+    
+    #navFullScreen section:nth-child(4),
+    #navFullScreen section:nth-child(5),
+    #navFullScreen section:nth-child(6) {
+        display: none;
+    }
+    
+    #conteneur > section:nth-child(2) {
+        display: none;
+    }
+    
+    #conteneur > section:last-child {
+        position: relative;
+        margin: 20px 0;
+        border: 1px #999 solid;
+    }
+    
+    #conteneur form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin: auto;
+        width: 100%;
+        
+    }
+    
+    #conteneur form section:last-child {
+        height: 80px;
+    }
+    
+    
+    
+    /* Main */
+    main {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    /* ----- Ventes et location ----- */
+    main > section {
+        width: 100%;
+    }
+    
+    main section:nth-child(2) { /*/////*/
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    article.ventelocation {
+        margin-left: 20px;
+        height: 620px;
+    }
+
+    main section section section article {
+        margin-bottom: 20px;
+    }
+
+    main section section section article:last-child {
+        margin-right: 20px;
+    }
+    
+    /* ----- Encart gris et icônes verts ----- */
+    section.valeurs {
+        width: 100%;
+        padding: 0;
+    }
+
+    section.valeurs section article {
+        margin: 15px;
+    }
+
+    section.valeurs section article h4 {
+        text-align: center;
+    }
+
+    section.valeurs section article p:last-child {
+        text-align: center;
+    }
+
+    section.valeurs > article {
+        margin: 30px 15px;
+    }
+
+    /* ----- Actualité immobilières ----- */
+    section.actualite > section {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        margin: 0 20px;
+    }
+
+    section.actualite > section article {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        text-align: center;
+        margin: 20px 20px 20px 0;
+        height: 370px;
+    }
+
+    section.actualite > section p {
+        margin: 0;
+    }
+    
+    section.actualite > section article button {
+        height: 40px;
+        position: relative;
+        margin-top: 45px;
+    }
+
+    /* ----- Petit encart gris avec carte ----- */ 
+    
+    .titreEncartGris div {
+        display: none;    
+    }
+    
+    .encartcarte > section {
+        width: 100%;
+    }
+    
+    .encartcarte section article {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .encartcarte section article {
+        margin-bottom: 30px;
+    }
+    
+    .encartcarte section article h4 {
+        margin-top: -45px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .encartcarte section article:last-child {
+        padding-right: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    #cookies p {
+        top: calc(100% - 65px);
+        height: 65px; /* 45 */
+        padding: 0 20px;
+    }
+
+    #cookies button {
+        margin: 0 40px 0 10px;
+    }
+    
+    #logoTransparent {
+        top: -90px;
+    }
+}
+
+
+/* -------------------------------- */
+@media screen and (max-width: 768px) {
+    /* ----- Ventes et location ----- */
+    article.ventelocation {
+        height: 550px;
+    }
+    
+    .encartcarte .filettitre h4 {
+        font-size: 1.2rem;
+    }
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 375px) {
+    /* ----- Ventes et location ----- */   
+    header > section:first-child section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 15px 0;
+        height: 40px;
+        width: 100%;
+    }
+    
+    header > section:first-child h1 {
+        font-size: 0.8rem;
+    }
+    
+    #loupe {
+        left: calc(100% - 13%);
+    }
+    
+    nav input {
+        left: 0;
+    }
+    
+    h2 {
+        font-size: 1.1rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    #ligne {
+        display: none;
+    }
+    
+    #BtnsVendEtLoue {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    
+    #vendre, #louer {
+        width: 45%;
+        border: 1px #222 solid;
+    }
+    
+    article.ventelocation {
+        height: 450px;
+    }
+    
+    /*
+    article.ventelocation button {
+        right: calc(50% - 71.64px);
+    }*/
+    article.ventelocation button {
+        position: relative;
+        bottom: 0;
+        left: calc(50% - 25%);
+        margin-top: 20px;
+        -moz- margin-bottom: 20px;
+        -moz- background: red;
+        -webkit- background: red;
+        -ms- background: red;
+    }
+    
+    
+    /* ----- Encart gris et icônes verts ----- */
+    section.valeurs section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    section.valeurs section article {
+        border-width: 1px;
+        border-style: none none solid none;
+        padding-bottom: 25px;
+    }
+    
+    /* ----- Actualité immobilières ----- */
+    section.actualite > section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    section.actualite > section article {
+        width: 100%;
+    }
+    
+    /* ----- Petit encart gris avec carte ----- */     
+    .encartcarte > section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .encartcarte section article {
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+    
+    .encartcarte section article p {
+        text-align: center; 
+        padding-left: 0;
+    }
+    
+    .filettitre div {
+        display: none;
+    }
+    
+    footer {
+        padding: 20px;
+    }
+    
+    #cookies p {
+        top: calc(100% - 100px);
+        height: 100px; /* 45 */
+    }
+}

@@ -1,0 +1,15 @@
+Cette maquette est un prototype à titre d'exposition et ne présente qu'une page d'accueil.
+Ce projet est en cours. Il reste encore des améliorations (optimisation de code, 
+compatibilité de navigateurs, etc.)
+
+Elle est responsive pour les résolutions ci-dessous :
+- Desktop ( > 1024 px)
+- IPad (1024px, 768 px)
+- IPhone (375 px)
+
+Si besoin, je pourrai vous parler de cette maquette lors d'un entretien et de 
+ces axes d'améliorations.
+
+Cordialement,
+
+Renaud ROUSSELLE.

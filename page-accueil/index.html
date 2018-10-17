@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+        <!-- encodage de caractère -->
+        <meta charset="utf-8"> 
+        <!-- pour le référencement -->
+        <meta name="description" content="Free Web tutorials"> 
+        <!-- charge le fichier css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+        <!-- lien vers la bibliothèque d'icônes font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous"> 
+        <!-- charge les polices -->
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <!-- pour le responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>https://www.diagtech-expert.fr/</title>
+    </head>
+
+    <body>
+        <!-- Eléments en position absolute -->
+        <!-- Bouton Return-Top -->
+        <a href="index.html" id="bouton-return"><i class="fas fa-angle-up"></i></a>
+        <!-- Cookies -->
+        <section id="cookies">
+            <p>Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site. Si vous continuez à utiliser ce dernier, nous considérerons que vous acceptez l'utilisation des cookies.<button>Ok</button></p>
+        </section>
+        
+        <!-- Menu full screen -->
+        <section id="navFullScreen">
+            <h6>
+                <a href="#">
+                    <i id="flecheMenu" class="fas fa-long-arrow-alt-left"></i>
+                </a>
+                Menu
+                <a href="#">
+                    <i id="croixMenu" class="fas fa-times"></i>
+                </a>
+            </h6>
+            <input type="text" placeholder="Rechercher sur ce site">
+            <section>
+                <p id="arrow4">Diagnostics Immobiliers<i class="fas fa-angle-right"></i></p>
+                <hr>
+                <p id="arrow5">Diagnostics Vente ou location<i class="fas fa-angle-right"></i></p>
+                <hr>
+                <p id="arrow6">Diagnostics Vente ou location<i class="fas fa-angle-right"></i></p>
+                <hr>
+                <p><a href="#">Demande de devis</a></p>
+                <hr>
+                <p><a href="#">Actualités Immobilières</a></p>
+            </section>
+            <section>
+                <p><a href="#">Liste des Diagnostics Immobiliers Obligatoires</a></p>
+                <hr>
+                <p><a href="#">Validité des diagnostics</a></p>
+                <hr>
+                <p><a href="#">Comprendre Les diagnostics</a></p>
+                <hr>
+                <p><a href="#">Pourquoi réaliser des Diagnostics Immobiliers</a></p>
+                <hr>
+                <p><a href="#">Normes - Réglementation</a></p>
+            </section>
+            <section>
+                <p><a href="#">Diagnostics Vente Appartement</a></p>
+                <hr>
+                <p><a href="#">Diagnostics Location Appartement</a></p>
+                <hr>
+                <p><a href="#">Diagnostics Vente Maison</a></p>
+                <hr>
+                <p><a href="#">Diagnostics Location Maison</a></p>
+            </section>
+            <section>
+                <p><a href="#">Diagnostics Amiante avant travaux</a></p>
+                <hr>
+                <p><a href="#">Diagnostics Termites avant travaux</a></p>
+                <hr>
+                <p><a href="#">Diagnostics Plomb avant travaux</a></p>
+                <hr>
+                <p><a href="#">Rénovation de l'habitat</a></p>
+                <hr>
+                <p><a href="#">Qui sommes Nous ?</a></p>
+            </section>
+        </section>
+        
+        <!-- Header -->
+        <header>
+            <section>
+                <section>
+                    <h1>Diagtech - Expert en diagnostics immobiliers. Paris - Île de France</h1>
+                    <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+                </section>
+            </section>
+            <section>
+                <a href="index.html" title="DiagTech">
+                    <img src="img/logo-diagtech.png" alt="logo-diagtech">
+                    <section>
+                        <p>01 42 23 65 53</p>
+                        <p>À PARIS ET EN ÎLE DE FRANCE.</p>
+                        <p>Du lundi au vendredi de 9H à 19H</p>
+                        <p>Soirée et week end sur rdv</p>
+                    </section>
+                </a>
+            </section>
+        </header>
+         
+         <!-- Menu -->
+         <nav class="grisfonce" id="nav-bar">
+            <!-- Menu hamburger -->
+            <a href="#" id="menuBurger"><i class="fas fa-bars"></i>Menu</a>
+            <!-- Logo transparent -->
+            <a href="index.html"><img src="img/logo_footer.png" alt="logo-diagtech-transparent" id="logoTransparent"></a>
+            <section>
+                <section>
+                    <a href="#" class="source-sous-menu">Diagnostics immobiliers
+                         <ul>
+                             <li>Liste des diagnostics immobiliers obligatoires</li>
+                             <li>Validités des diagnostics</li>
+                             <li>Comprendre les diagnostics</li>
+                             <li>Pourquoi réaliser les diagnostics immobiliers</li>
+                             <li>Normes - Réglementation</li>
+                         </ul>
+                    </a>
+                    <a href="#" class="source-sous-menu">Diagnostics vente ou location
+                         <ul>
+                             <li>Diagnostics vente appartement</li>
+                             <li>Diagnostics location appartement</li>
+                             <li>Diagnostics vente maison</li>
+                             <li>Diagnostics location maison</li>
+                         </ul>
+                    </a>
+                    <a href="#" class="source-sous-menu">Avant travaux
+                         <ul>
+                             <li>Diagnostic amiante avant travaux</li>
+                             <li>Diagnostic termites avant travaux</li>
+                             <li>Diagnostic plomb avant travaux</li>
+                             <li>Renovation de l'habitat</li>
+                             <li>Qui sommes nous ?</li>
+                         </ul>
+                    </a>
+                    <a href="#" class="vert">Demande de devis</a>
+                    <a href="#">Actualités immobilières</a>
+                </section>
+                <section>
+                    <a id="loupe" href="#"> <i class="fas fa-search"></i></a>
+                    <input class="grisfonce" type="text" placeholder="Rechercher sur ce site" />
+                </section>
+            </section>
+            
+         </nav>
+     
+         <!-- Section Photo & formulaire -->
+         <section id="conteneur">
+             <img src="img/header-diagtech-expert.jpg" alt="sejour-high-tech">
+            <!-- Cadre noir -->
+             <section>
+                 <h2>Diagnostic immobilier devis gratuit</h2>
+                 <p>Merci de bien vouloir compléter le formulaire ci-dessous.</p>
+             </section>
+             <section class="grisclair">
+                <!-- Formulaire -->
+                <form method="post" action="traitement.php" class="grisclair">
+                 <section>
+                     <select name="transaction" id="transaction">
+                         <option value="0">Type de transaction</option>
+                         <option value="1">Vente</option>
+                         <option value="2">Location</option>
+                     </select>
+                     <select name="bien" id="bien">
+                         <option value="0">Type de bien</option>
+                         <option value="1">Maison</option>
+                         <option value="2">Appartement</option>
+                         <option value="3">Local Commercial</option>
+                     </select>
+                 </section>
+                 <section>
+                     <select name="nombre-pieces" id="nombre-pieces">
+                         <option value="0">Nombre de pièces</option>
+                         <option value="1">F1</option>
+                         <option value="2">F2</option>
+                         <option value="3">F3</option>
+                         <option value="4">F4</option>
+                         <option value="5">F5 &amp; plus</option>
+                     </select>
+                     <select name="annee-construction" id="annee-construction">
+                         <option value="0">Année de construction</option>
+                         <option value="1">Avant 1949</option>
+                         <option value="2">Entre 1949 et 1997</option>
+                         <option value="3">Après 1997</option>
+                     </select>
+                 </section>
+                 <section>
+                     <input name="code-postal" id="code-postal" type="text" placeholder="Code postal" required maxlength="5">
+                     <input name="ville" id="ville" type="text" placeholder="Ville" maxlength="50">
+                 </section>
+                 <section>
+                     <input name="superficie" id="superficie" type="text" placeholder="Superficie" maxlength="4">
+                 </section>
+                 <section>
+                     <button class="orange" id="buttonFormulaire" type="button">Obtenir votre devis gratuit</button>
+                 </section>
+             </form>
+             </section>
+         </section>
+        
+         <!-- Main -->
+         <main>
+             <h2 class="grisfonce">Nos packs diagnostics vente et location</h2>
+             
+             <!-- Ventes et location -->
+             <section>
+                
+                 <!-- boutons -->
+                 <section id="BtnsVendEtLoue">
+                     <button type="button" id="vendre">Je vends</button>
+                     <button type="button" id="louer">Je loue</button>
+                     <section id="ligne"></section>
+                 </section>
+                 
+                 <!-- Vente Appartements -->
+                 <section id="venteAppart">
+                     <h3><i class="far fa-building"></i>Vous vendez un appartement</h3>
+                     <section>
+                         <article class="ventelocation">
+                             <img src="img/images-6.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Après 1997</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Surface Loi Carrez.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                                 <li>
+                                     Diagnostic Termite 
+                                     <span>(Si vous êtes situé dans une zone contaminée par les termites; 
+                                         <a href="#">Vérifier ici</a>)
+                                     </span>
+                                 </li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                         <article class="ventelocation">
+                             <img src="img/images-8.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Entre 1949 et 1997</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>Diagnostic Amiante avant vente.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Surface Loi Carrez.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                                 <li>Diagnostic Termite 
+                                     <span>(Si vous êtes situé dans une zone contaminée par les termites; 
+                                         <a href="#">Vérifier ici</a>)
+                                     </span>
+                                 </li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                         <article class="ventelocation">
+                             <img src="img/images-2-1.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Avant 1949</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>Diagnostic Amiante avant vente.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Diagnostic Plomb.</li>
+                                 <li>Surface Loi Carrez.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                                 <li>Diagnostic Termite 
+                                     <span>(Si vous êtes situé dans une zone contaminée par les termites; 
+                                         <a href="#">Vérifier ici</a>)
+                                     </span>
+                                 </li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                     </section>
+                 </section>
+                 
+                 <!-- Vente Maisons -->
+                 <section id="venteMaison">
+                     <h3><i class="fas fa-home"></i>Vous vendez une maison</h3>
+                     <section>
+                         <article class="ventelocation">
+                             <img src="img/images-2.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Après 1997</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                                 <li>Diagnostic Termite 
+                                     <span>(Si vous êtes situé dans une zone contaminée par les termites; 
+                                         <a href="#">Vérifier ici</a>)
+                                     </span>
+                                 </li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                         <article class="ventelocation">
+                             <img src="img/images-25.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Entre 1949 et 1997</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>Diagnostic Amiante avant vente.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Surface Loi Carrez.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                                 <li>Diagnostic Termite 
+                                     <span>(Si vous êtes situé dans une zone contaminée par les termites; 
+                                         <a href="#">Vérifier ici</a>)
+                                     </span>
+                                 </li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                         <article class="ventelocation">
+                             <img src="img/images-1.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Avant 1949</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>Diagnostic Amiante avant vente.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Diagnostic Plomb.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                                 <li>Diagnostic Termite 
+                                     <span>(Si vous êtes situé dans une zone contaminée par les termites; 
+                                         <a href="#">Vérifier ici</a>)
+                                     </span>
+                                 </li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                     </section>
+                 </section>
+                 
+                 <!-- Location Appartements -->
+                 <section id="locationAppart">
+                     <h3><i class="far fa-building"></i>Vous louez un appartement</h3>
+                     <section>
+                         <article class="ventelocation">
+                             <img src="img/images-4.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Après 1997</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Surface Habitable.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                         <article class="ventelocation">
+                             <img src="img/images-3.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Entre 1949 et 1997</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>Diagnostic Amiante DAPP.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Surface Habitable.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                         <article class="ventelocation">
+                             <img src="img/images-7.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Avant 1949</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>Diagnostic Amiante avant vente.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Diagnostic Plomb.</li>
+                                 <li>Surface Habitable.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                     </section>
+                 </section>
+                 
+                 <!-- Location Maisons -->
+                 <section id="locationMaison">
+                     <h3><i class="fas fa-home"></i>Vous louez une maison</h3>
+                     <section>
+                         <article class="ventelocation">
+                             <img src="img/images.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Après 1997</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Surface Habitable.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                         <article class="ventelocation">
+                             <img src="img/images-12-2.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Entre 1949 et 1997</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Surface Habitable.</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                         <article class="ventelocation">
+                             <img src="img/images-21.jpg" alt="appartement">
+                             <h4 class="grisfonce">Construction Avant 1949</h4>
+                             <ul>
+                                 <li>DPE Diagnostic de performance énergétique.</li>
+                                 <li>Diagnostic Plomb.</li>
+                                 <li>ERNMT.</li>
+                                 <li>Surface Habitable</li>
+                                 <li>Diagnostic Électricité.</li>
+                                 <li>Diagnostic Gaz.</li>
+                             </ul>
+                             <button class="orange" type="button">Obtenir un Devis</button>
+                         </article>
+                     </section>
+                 </section>
+             </section>
+             
+             
+             <!-- Encart gris et icônes verts -->
+             <section class="grismoyen">
+                 <section class="valeurs">
+                     <section>
+                         <article>
+                             <i class="fas fa-euro-sign vert"></i>
+                             <h4>Diagtech-Expert en Diagnostics Immobiliers</h4>
+                             <p>À Paris et en Île De France DiagTech s’engage à vous proposer des conseils 
+                             personnalisés et les meilleurs tarifs.</p>
+                             <p>
+                                 <a href="#">Consultez La Liste des Diagnostics Immobiliers Obligatoires.</a>
+                             </p>
+                             <p>Demandez votre DEVIS Gratuit en ligne au JUSTE PRIX.</p>
+                         </article>
+                         
+                         <article>
+                             <i class="fas fa-question vert"></i>
+                             <h4>Le saviez-vous ?</h4>
+                             <p>Pour vendre ou pour louer, une maison, un appartement ou bien un local 
+                             commerciale un propriétaire doit présenter les diagnostics immobiliers 
+                             obligatoires pour valider sa transaction. Les rapports de diagnostics 
+                             ainsi que le ERNMT.</p>
+                             <p>Une intervention chez vous dans les 48 h.</p>
+                         </article>
+                         <article>
+                             <i class="fas fa-user-plus vert"></i>
+                             <h4>Choisir Diagtech-Expert</h4>
+                             <p>C’est opter pour un service de qualité avec Une réponse adaptée à vos besoins 
+                             et obligations légales. La garantie d’un travail sérieux réalisé par des experts 
+                             certifiés et assurés. Des tarifs compétitifs et personnalisés.</p>
+                             <p>Vos Rapports Sous 24H.</p>
+                         </article>
+                     </section>
+                     <article>
+                         <p>
+                             <a href="#">DPE Paris(75).</a>
+                             <a href="#"> Diagnostic Immobilier Paris 6.</a>
+                             <a href="#"> DPE Paris 6.</a>
+                             <a href="#"> Diagnostic immobilier Paris 18.</a>
+                             <a href="#"> DPE Paris 18.</a>
+                             <a href="#"> Diagnostic immobilier Paris 17.</a>
+                             <a href="#"> DPE Paris 17.</a>
+                             <a href="#"> Diagnostic immobilier Paris 19</a>
+                             <a href="#"> DPE Paris 19.</a>
+                             <a href="#"> Diagnostic immobilier Paris 20.</a>
+                             <a href="#"> DPE Paris 20.</a>
+                             <a href="#"> Diagnostic immobilier Asnières sur Seine.</a>
+                             <a href="#"> Diagnostic immobilier Boulogne Billancourt.</a>
+                             <a href="#"> DPE Boulogne Billancourt.</a>
+                             <a href="#"> Diagnostic immobilier Levallois-Perret.</a>
+                             Diagnostic immobilier Clichy. DPE Clichy. Diagnostic immobilier Neuilly sur seine. 
+                             DPE Neuilly sur seine. Diagnostic immobilier Puteaux. DPE Puteaux. Diagnostic 
+                             immobilier Colombes. Diagnostic immobilier Courbevoie. Diagnostic immobilier 
+                             Suresnes. Diagnostic immobilier Saint Cloud. Diagnostic immobilier Meudon. 
+                             <a href="#">Diagnostic Immobilier Montreuil.</a> 
+                             <a href="#">DPE Montreuil.</a> Diagnostic immobilier Clamart. Diagnostic immobilier 
+                             Vanves. DPE Vanves.
+                         </p>
+                     </article>
+                 </section>
+             </section>
+             
+             <!-- Actualités immobilières -->
+             <section class="actualite">
+                 <section class="filettitre">
+                     <div></div>
+                     <h4>Actualités immobilières</h4>
+                     <div></div>
+                 </section>
+                 <section>
+                     <article>
+                         <img src="img/images-4.jpg" alt="appartement">
+                         <h5>POINT SUR L’ENCADREMENT DES LOYERS A PARIS</h5>
+                         <p>Depuis le 1er août 2015 les loyers parisiens sont encadrés par la loi Alur. 
+                         Cette disposition devrait permettre de réguler le marché immobilier D’abord 
+                         testé dans la capitale,</p>
+                         <button>Lire la suite</button>
+                     </article>
+                     <article>
+                         <img src="img/images-8.jpg" alt="appartement">
+                         <h5>PAS ASSEZ DE LOGEMENTS SOCIAUX EN FRANCE</h5>
+                         <p>La politique du logement social a pour vocation la location de biens immobiliers 
+                         à des ménages modestes. Construit majoritairement au cours du XXème siècle, ce parc 
+                         immobilier est de plus en plus vieillissant et nécessite…</p>
+                         <button>Lire la suite</button>
+                     </article>
+                     <article>
+                         <img src="img/images-2.jpg" alt="appartement">
+                         <h5>PARIS, VILLE-TEST POUR L’ENCADREMENT DES LOYERS</h5>
+                         <p>A Paris les loyers des nouveaux contrats immobiliers ou des renouvellements de
+                          bail sont désormais encadrés selon un barème fixé par le préfet et l’Observatoire 
+                          des Loyers de l’Agglomération Parisienne (Olap).</p>
+                         <button>Lire la suite</button>
+                     </article>
+                 </section>
+             </section>
+             
+             <!-- Encart gris et carte -->
+             <section class="encartcarte grismoyen">
+                 <section>
+                     <article>
+                         <section class="filettitre titreEncartGris">
+                             <div></div>
+                             <h4>Diagnostics obligatoires</h4>
+                             <div></div>
+                         </section>
+                         <ul>
+                             <li><a href="#">DPE (Diagnostic de Performance Energétique)</a></li>
+                             <li><a href="#">Diagnostic Amiante. Diagnostic Plomb.</a></li>
+                             <li><a href="#">Diagnostic Electricité.</a></li>
+                             <li><a href="#">Diagnostic Gaz.</a></li>
+                             <li><a href="#">Métrage Loi Carrez.</a></li>
+                             <li><a href="#">Métrage Loi Boutin.</a></li>
+                             <li><a href="#">ERNMT (Etat des Risques Naturels, Miniers et Technologiques)</a></li>
+                             <li><a href="#">État des lieux.</a></li>
+                         </ul>
+                     </article>
+                     <article>
+                         <section class="filettitre titreEncartGris">
+                             <div></div>
+                             <h4>Zones d'interventions</h4>
+                             <div></div>
+                         </section>
+                         <p>Nous réalisons tous les diagnostics immobiliers obligatoires à Paris et en Île de 
+                         France. Seine et Marne, Hauts de Seine, Seine St Denis, Val de Marne, Val d’Oise…</p>
+                     </article>
+                     <article>
+                         <section>
+                             <img src="img/Paris-ile-de-france-31.png" alt="departement-carte-ile-de-france">
+                         </section>
+                     </article>
+                 </section>
+             </section>
+         </main>
+         
+         <!-- Footer -->
+        <footer class="grisfonce">
+            <img src="img/logo_footer.png" alt="logo-diagtech">
+            <section>
+                <article>
+                    <h5>Nous découvrir :</h5>
+                    <p>
+                        <a href="#">Pourquoi réaliser des diagnostics immobiliers |</a>
+                        <a href="#">Les diagnostics immobiliers obligatoires |</a>
+                        <a href="#"> Validité des diagnostics</a><br>
+                        <a href="#">Diagnostics location appartement |</a>
+                        <a href="#">Diagnostics vente appartement</a>
+                    </p>
+                </article>
+                <article>
+                    <h5>Liste des diagnostics immobiliers :</h5>
+                    <p>
+                        <a href="#">Diagnostic Amiante |</a>
+                        <a href="#">DPE – Diagnostic de Performance Energétique |</a>
+                        <a href="#">Diagnostic Electricité |</a>
+                        <a href="#">Diagnostic Gaz </a><br>
+                        <a href="#">Diagnostic Plomb |</a>
+                        <a href="#">Diagnostic Termites |</a>
+                        <a href="#">Surface Loi Carrez |</a>
+                        <a href="#">Surface Habitable Loi Boutin |</a>
+                        <a href="#">ERNMT</a>
+                    </p>
+                </article>      
+            </section>
+            <div id="copyright">
+                <p>&copy; 2017 Diagtech - Tous droits de reproductions réservés -
+                    <a href="#">Mentions légales |</a>
+                    <a href="#">Conditions générales de vente |</a>
+                    <a href="#"><i class="fas fa-envelope"></i> Nous écrire |</a>
+                    <a href="#">Recrutement</a>
+                </p>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>
